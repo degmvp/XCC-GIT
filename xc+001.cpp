@@ -1,29 +1,3 @@
-USE [XSUPG]
-GO
-
-/****** Object:  StoredProcedure [dbo].[xc+001]    Script Date: 12/02/2023 19:11:52 ******/
-SET ANSI_NULLS ON
-GO
-
-SET QUOTED_IDENTIFIER ON
-GO
-
-/*
----------------------------------------
-# ✅ xc+001
-# ✅ C++ criado: 2021/03/05
-# ✅ Objetivo:sql server - C++ Lib
----------------------------------------*/
-
-create proc [dbo].[xc+001]
-AS
-/*
-/* Converts an integer value to a null-terminated string
-   using the specified base and stores the result in the
-   array given by str parameter.
-
-   Convert integer to string (non-standard function)
-*/
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -48,4 +22,3 @@ int x, a=5, b=3;
   return 0;
 }
 
-*/
